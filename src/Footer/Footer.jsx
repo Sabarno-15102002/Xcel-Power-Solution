@@ -35,7 +35,7 @@ export default function Footer()
         </div>
        <hr className="footer-hr"/>
        <div className="footer-txt">
-        <a>Terms & Condition</a>
+        <a href="/">Terms & Condition</a>
         <div className="footer-icon">
        <a href="/"><i className="fab fa-facebook"></i></a>
        <a href="mailto:xcelpowersolution46@gmail.com"><i className="fas fa-envelope"></i></a>

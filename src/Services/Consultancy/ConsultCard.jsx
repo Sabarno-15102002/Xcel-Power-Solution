@@ -1,8 +1,8 @@
 import React from "react";
 import "./Consultancy.css";
-function func() {
-  var div = document.getElementsByClassName("Consult-content");
-}
+// function func() {
+//   var div = document.getElementsByClassName("Consult-content");
+// }
 
 export default function ConsultCard(props) {
   var i = parseInt(props.i);
