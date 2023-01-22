@@ -20,7 +20,7 @@ export default function SmallCard(props)
             hr[id].style.color="black";
             hr[id].style.width="20%";
         }}>
-        <img src={props.icon} className="lt1-img"/>
+        <img src={props.icon} className="lt1-img" alt=""/>
         <h3>{props.title}</h3>
         <p>
         {isReadMore ? props.about.slice(0, 200) : props.about}

@@ -6,7 +6,7 @@ function Number() {
       <div className="row">
         <div className="col-lg-3 col-6 col-md-6">
           <div className="animated-number">
-          <i class="fas fa-wrench"></i>
+          <i className="fas fa-wrench"></i>
             <h2>4000+</h2>
             <p>Install & Upgrade</p>
           </div>
@@ -21,14 +21,14 @@ function Number() {
         </div>
         <div className="col-lg-3 col-6 col-md-6">
           <div className="animated-number">
-          <i class="fa fa-search"></i>
+          <i className="fa fa-search"></i>
             <h2>2400+</h2>
             <p>Reviews Done</p>
           </div>
         </div>
         <div className="col-lg-3  col-md-6 col-6">
           <div className="animated-number">
-          <i class="far fa-check-circle"></i>
+          <i className="far fa-check-circle"></i>
             <h2>3000+</h2>
             <p>problems Solved</p>
           </div>

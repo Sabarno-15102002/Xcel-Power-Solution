@@ -12,7 +12,7 @@ function Service() {
         <div className="col-lg-6">
           <div className="card">
             <div className="card1">
-              <i class="fas fa-building"></i>
+              <i className="fas fa-building"></i>
             </div>
             <h1>Consultancy</h1>
             <p>
@@ -29,7 +29,7 @@ function Service() {
         <div className="col-lg-6">
           <div className="card">
             <div className="card2">
-              <i class="fas fa-bolt"></i>
+              <i className="fas fa-bolt"></i>
             </div>
             <h1>Execution</h1>
             <p>
@@ -39,7 +39,7 @@ function Service() {
             </p>
             <a href="/Execution">
               <strong>More Info</strong>
-              <i class="fas fa-caret-right"></i>
+              <i className="fas fa-caret-right"></i>
             </a>
           </div>
         </div>

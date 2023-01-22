@@ -9,7 +9,7 @@ export default function Consult(props)
         {props.text}
         </div>
         <div className="col-lg-6">
-        <img src={props.src}/>
+        <img src={props.src} alt=""/>
         </div>
         </div>
         <hr className="hr"/>

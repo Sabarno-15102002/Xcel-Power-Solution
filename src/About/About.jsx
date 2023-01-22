@@ -5,7 +5,7 @@ function About() {
     <section id="about">
       <div className="row">
         <div className="col-lg-6 about-image">
-          <img src="Images/about.jpg" />
+          <img src="Images/about.jpg" alt=""/>
         </div>
         <div className="col-lg-6">
           <div className="about-text">
