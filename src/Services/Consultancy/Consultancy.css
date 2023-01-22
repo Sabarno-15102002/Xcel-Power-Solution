@@ -1,0 +1,94 @@
+.consultancy-home img{
+    height: 400px;
+    margin: 30px auto;
+    float: right;
+}
+.consultancy-text{
+    margin: 40px auto;
+    font-size: 18px;
+}
+.consultancy-home{
+    margin: 5% 5%;
+}
+.Consult-card{
+    height: 280px;
+    width: 380px;
+    border: 1px solid black;
+    background-image: url("../../../public/Images/bg5.jpg");
+    background-size: 500px;
+    background-repeat: no-repeat;
+}
+.consult-container{
+    margin: 5% 5%;
+}
+.Consult-content{
+    background-color: black;
+    opacity: 0.8;
+    color: wheat;
+    text-align: center;
+    padding: 13% 10%;
+    height: 280px;
+    width: 380px;
+    display: none;
+}
+.Consult-content h3 i{
+    margin-right: 15px;
+    font-size: 40px;
+    color: orangered;
+}
+.Consult-content a{
+    color: orangered;
+    text-decoration: none;
+}
+.Consult-content p{
+    font-size: 18px;
+    margin: 8px auto;
+}
+div.slide-up {
+    overflow: hidden;
+  }
+  
+  div.slide-up {
+    animation: 1.2s slide-up;
+    margin-top: 0%;
+    /* animation-delay:; */
+  }
+  @keyframes slide-up {
+  from {
+    margin-top: 8%;
+  }
+
+  to {
+    margin-top: 0%;
+  }
+}
+.small-card{
+    height: fit-content;
+    width: 400px;
+    padding: 20px 30px;
+    text-align: center;
+    margin: 25px auto;
+}
+.small-card img{
+    height: 200px;
+}
+.small-card img:hover{
+    
+}
+.small-card i{
+    font-size: 60px;
+    margin: 15px auto;
+    color: rgb(13, 14, 72);
+}
+
+.small-card p{
+    font-size: 18px;
+    color: rgb(97, 96, 96);
+}
+.card-hr{
+    width: 20%;
+}
+.read-or-hide{
+    cursor: pointer;
+    color: blueviolet;
+}

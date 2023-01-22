@@ -1,0 +1,33 @@
+.about-image img{
+    height: 70%;
+    float: right;
+    margin-top: 50px;
+}
+.about-text{
+    width: 80%;
+    margin-top: 100px;
+    padding: 30px;
+}
+.about-text h1{
+    text-align: left;
+    font-size: 35px;
+}
+.about-icon{
+    color: orangered;
+}
+.about-us{
+    color: orangered;
+    font-size: 20px;
+}
+@media screen and (max-width: 800px) {
+    .about-image img {
+       display: none;
+    }
+    .about-text h1{
+        text-align: center;
+    }
+    .about-text{
+        margin-top: 25px;
+        margin-left: 60px;
+    }
+  }

@@ -1,0 +1,50 @@
+#contact-us{
+    height: 100vh;
+    width: 100%;
+    /* background-image: url("../../public/Images/contact-bg.jpg"); */
+    /* background-image: url(""); */
+    background: url("https://cdn.pixabay.com/photo/2014/10/05/06/16/windrader-474576_960_720.jpg") no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+    background-repeat: repeat-Y;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    /* filter: brightness(50%); */
+    color: white;
+    padding: 3%;
+}
+.contact-form{
+    background-color: white;
+    opacity: 0.8;
+    width: 60%;
+    margin: auto;
+    align-items: center;
+    padding: 3%;
+    border-radius: 15px;
+}
+.contact-form img{
+    height: 150px;
+    border-radius: 100%;
+    display: block;
+    margin: 3px auto;
+}
+.contact-form input,.contact-form textarea,.contact-form button{
+    color: black;
+    background-color: transparent;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    margin: 5px auto;
+    width: 70%;
+}
+@media screen and (max-width: 800px) {
+   .contact-form{
+    width: 90%;
+   }
+   #contact-us {
+    height:90vh;
+   }
+  }

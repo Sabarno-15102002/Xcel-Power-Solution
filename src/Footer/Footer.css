@@ -1,0 +1,27 @@
+#footer{
+    background-color: black;
+    color: white;
+    padding: 10%;
+    
+}
+#footer li{
+    list-style-type: none;
+}
+#footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer-hr{
+    margin: 30px auto;
+}
+.footer-txt{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-icon i{
+    font-size: 25px;
+    margin: 0px 15px;
+}
+.dropdown-item{
+    color: white;
+}

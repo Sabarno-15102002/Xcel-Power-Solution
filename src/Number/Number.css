@@ -1,0 +1,49 @@
+.service-box{
+    width:100%;
+  height:fit-content;
+  background-image: url("../../public/Images/bg5.jpg");
+  background-repeat: repeat-Y;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.card1{
+    height: 350px;
+    width: 350px;
+    background-color: black;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: 50px 0px ;
+    float: right;
+}
+.card2{
+    height: 350px;
+    width: 350px;
+    background-color: black;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: 50px ;
+    float: left;
+}
+.card1 img, .card2 img{
+    height: 250px;
+    border-radius: 100%;
+}
+.animated-number{
+    color: white;
+    background-color: black;
+    opacity: 0.7;
+    text-align: center;
+    margin: 15% auto;
+    padding: 10%;
+    border-radius: 10%;
+    width: 90%;
+}
+.animated-number i{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 800px) {
+    .animated-number{
+        margin: 5px auto;
+    }
+  }

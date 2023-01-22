@@ -1,0 +1,9 @@
+.navbar-brand img{
+    height: 50px;
+}
+.navbar{
+    font-size: 18px;
+}
+.navbar-brand span{
+    margin-left: 10px;
+}
