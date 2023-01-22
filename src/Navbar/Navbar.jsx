@@ -20,7 +20,7 @@ function Navbar() {
             <a className="nav-link" href="/#about">About</a>
           </li>
           <li className="nav-item dropdown">
-            <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a className="nav-link dropdown-toggle" href="/#carouselExampleDark" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Services
             </a>
             <ul className="dropdown-menu bg-dark " aria-labelledby="navbarDropdown">
